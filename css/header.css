@@ -1,0 +1,39 @@
+.header_Box {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 404px;
+  margin-right: 404px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header_Box i {
+  margin-right: 10px;
+}
+
+#main_Title {
+  color: #0e7159;
+  margin-top: 3px;
+}
+
+.button_div {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+#inquiry_Button {
+  width: 90px;
+  height: 30px;
+  background: none;
+  border: none;
+}
+
+#start_Button {
+  width: 90px;
+  height: 30px;
+  font-family: "Spoqa Han Sans Neo";
+  color: white;
+  background: #0e7159;
+  border: none;
+  border-radius: 4px;
+}

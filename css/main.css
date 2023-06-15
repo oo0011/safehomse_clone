@@ -1,0 +1,218 @@
+.main_Img_Box {
+  width: 100%;
+  height: 768px;
+  background-image: url("C:/Users/gh818/OneDrive/바탕 화면/clone/img/main_BackImg.png");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.699); /* 어둡게 만들고자 하는 배경색 */
+  background-blend-mode: multiply; /* 배경 이미지와 배경 색상을 혼합 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#main_Img_Box_Title {
+  color: white;
+  font-size: 50px;
+}
+
+#main_Img_Box_Link {
+  margin-top: 25px;
+}
+
+#main_Img_Box_Link a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.main_description_Box {
+  width: 100%;
+  height: 677px;
+  margin-top: 72px;
+}
+
+#main_description_Title {
+  font-size: 43px;
+  color: #0e7159;
+  text-align: center;
+  margin-top: 53px;
+}
+
+.descriptions_Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 62px;
+}
+
+.descriptions_Box img {
+  width: 293px;
+  height: 233px;
+  border-radius: 8px;
+}
+
+.descriptions_Box p {
+  margin-top: 21px;
+  margin-bottom: 23px;
+  font-size: 21px;
+}
+
+.descriptions_Box span {
+  font-size: 16px;
+  color: #6b7684;
+}
+
+#description_Box_1,
+#description_Box_2,
+#description_Box_3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#main_description_Link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#main_description_Link a {
+  text-decoration: none;
+  color: #0e7159;
+}
+
+.main_description_Number {
+  color: #0e7159;
+}
+
+.descriptions_Box_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+#description_Box_6,
+#description_Box_7,
+#description_Box_8,
+#description_Box_9,
+#description_Box_10 {
+  width: calc(50% 10px);
+  margin-bottom: 60px;
+  margin-right: 80px;
+}
+
+#description_Box_10 {
+  margin-right: 490px;
+}
+
+.descriptions_Box_2 p {
+  margin-bottom: 10px;
+  font-size: 21px;
+}
+
+.descriptions_Box_2 span {
+  color: #6b7684;
+}
+
+.img_description_Box {
+  width: 100%;
+  height: 824px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#img_description_Img1,
+#img_description_Img2 {
+  width: 296px;
+  height: 642px;
+  border-radius: 30px;
+}
+
+#img_description_Img1 {
+  margin-right: 200px;
+}
+
+#img_description_Img2 {
+  margin-left: 200px;
+}
+
+#img_description_Title {
+  color: #0e7159;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#img_description_msgImg {
+  width: 540px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.img_description_Box p {
+  font-size: 43px;
+  margin-bottom: 50px;
+}
+
+.img_description_Box span {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #6b7684;
+}
+
+.main_description_Price_Box {
+  width: 100%;
+  height: 677px;
+}
+
+.description_Price_Boxs {
+  display: flex;
+  justify-content: center;
+}
+
+#description_Price_Box {
+  width: 340px;
+  height: 401px;
+  background: #f2f3f4;
+  border-radius: 16px;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+#description_Price_Box_Title {
+  color: #333d4b;
+  font-size: 24px;
+  padding-top: 35px;
+  margin-bottom: 20px;
+}
+
+.main_description_Price_Box span {
+  color: #6b7684;
+  font-size: 15px;
+}
+
+#description_Price {
+  color: #0e7159;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.main_description_Price_Box button {
+  width: 294px;
+  height: 64px;
+  color: #ffffff;
+  font-size: 16px;
+  background: #0e7159;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+}
+
+.main_Review_Box {
+  width: 100%;
+  height: 629px;
+  border: 2px solid black;
+}
